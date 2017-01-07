@@ -4,6 +4,7 @@ title: Blogging Like a Hacker
 ---
 
 ###注册 Github 账号
+
 点 github.com 首页的 Sign Up （注册）按钮，进行注册。
 
 填写 username （用户名），小写英文字母，不要用空格。
