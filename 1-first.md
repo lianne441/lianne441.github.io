@@ -4,7 +4,7 @@ title: Blogging Like a Hacker
 ---
 
 
-###注册 Github 账号
+### 注册 Github 账号
 
 点 github.com 首页的 Sign Up （注册）按钮，进行注册。
 
@@ -28,7 +28,7 @@ repository （仓库）这个词基本上等价于 project ，差别如下
 
 repository = project + history
 
-###搭建 Github 网站
+### 搭建 Github 网站
 
 创建一个仓库，仓库的名字是有严格规定的，
 
