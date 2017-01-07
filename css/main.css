@@ -20,14 +20,14 @@ a { color: #14877E; text-decoration: none; }
 
 .nav ul li a { color: #FFF; text-decoration: none; font-family: "myriad-pro", Arial, sans-serif; display: block; }
 
-#header { background: teal; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding-top: 10px; }
+#header { background: teal; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding-top: 10px;}
 
 .top-bg { min-height: 70px; }
 .top-bg .home { text-align: center; }
 .top-bg a { color: #FFF; text-decoration: none; }
 .top-bg a:hover { color: #77F0F0; }
-
-.content { padding: 0 0 70px 0; }
+.main{margin-top: 20px;}
+.content { padding: 0 0 70px 0;}
 
 .book { width: 100%; margin: 0 auto; }
 
