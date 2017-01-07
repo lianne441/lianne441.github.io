@@ -4,7 +4,7 @@
 
 .clearfix:after { clear: both; }
 
-html, body { height: 100%; -webkit-font-smoothing: antialiased; }
+html, body { height: 100%; -webkit-font-smoothing: antialiased; background-color: gray;}
 
 body { margin: 0; padding: 0; }
 
