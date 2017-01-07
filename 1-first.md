@@ -3,6 +3,7 @@ layout: default
 title: Blogging Like a Hacker
 ---
 
+
 ###注册 Github 账号
 
 点 github.com 首页的 Sign Up （注册）按钮，进行注册。
