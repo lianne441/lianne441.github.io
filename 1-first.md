@@ -21,9 +21,8 @@ title: Blogging Like a Hacker
     邮箱中点链接之后，就可以自动跳转回 github.com 的页面上，同时显示
 
     ```
-
     Your email was verified.
-
+    
     ```
 
     你的邮箱已经验证成功了。下一步就可以来创建项目了。
