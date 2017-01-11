@@ -5,7 +5,7 @@ title: Blogging Like a Hacker
 
 
 
-###  Git 本地工作流
+###   7. Git 本地工作流
 
     Git 是一个版本控制工具，什么是版本控制，我们下面实际操作一下就一目了然了。
 

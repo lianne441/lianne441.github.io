@@ -4,7 +4,7 @@ title: Blogging Like a Hacker
 ---
 
 
-###  文件操作
+###   4. 文件操作
 
     文件操作也包括文件夹操作（ Linux 系统下万物皆文件）。主要涉及：
 

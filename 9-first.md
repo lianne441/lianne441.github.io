@@ -5,7 +5,7 @@ title: Blogging Like a Hacker
 
 
 
-###  snodejs 安装
+###   9. snodejs 安装
 
     安装 node 的方式很多，这里推荐用 nvm 装 node。
 

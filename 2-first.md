@@ -5,7 +5,7 @@ title: Blogging Like a Hacker
 
 
 
-###  进入 Linux 命令行的黑色世界
+###   2. 进入 Linux 命令行的黑色世界
 
 ###  为什么要用 Linux ?
 

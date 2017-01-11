@@ -5,7 +5,7 @@ title: Blogging Like a Hacker
 
 
 
-### Github Pages 创建个人网站
+###   1. Github Pages 创建个人网站
 
     Github.com 是程序员存放代码的一个网站。Github Pages 是 Github 提供的一项服务，可以免费的帮助我们托管网站。
 
