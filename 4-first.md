@@ -74,7 +74,7 @@ title: Blogging Like a Hacker
     $ ls aaa
     $ ls bbb
     aa bb cc
-    
+
 ###  普通用户和超级用户
 
     普通用户就是我们默认登录用户，例如 peter 。超级用户就是管理员。普通用户可以化身超级用户。这个化身的方式是
