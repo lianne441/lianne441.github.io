@@ -243,7 +243,8 @@ table{
 	margin-bottom: 10px;
 }
 tr:hover{
-	background-color: #06f9eb;
+	background-color: #14877e;
+	color:gray;
 }
 tr td{
 	line-height: 60px;
