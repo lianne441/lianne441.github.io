@@ -14,7 +14,9 @@ title: Blogging Like a Hacker
 
     首先到仓库页面：https://github.com/happypeter/happypeter.github.io
 
-    点 Settings（设置）这一个标签。打开的页面底部有一个 “Delete this repository” 按钮，意思是”删除这个仓库“，点击按钮。打开的界面中，输入一下这个仓库的名字 happypeter.github.io 就可以把这个仓库删除了。
+    点 Settings（设置）这一个标签。打开的页面底部有一个 “Delete this repository” 按钮，意思是”删除这个仓库“，点击按钮。
+
+    打开的界面中，输入一下这个仓库的名字 happypeter.github.io 就可以把这个仓库删除了。
 
     删除仓库之后，我们要做的事情是：
 
@@ -29,7 +31,9 @@ title: Blogging Like a Hacker
 
     然后，我们就可以把我们想要上传的内容拷贝到这个文件夹内，并制作本地版本。
 
-    拷贝进来的内容，要符合第一天我们介绍的 github pages 的格式规范（其实最重要的一点就是每个 .md 文件中都要有头部，参考第一天我们的文档中的介绍）。
+    拷贝进来的内容，要符合第一天我们介绍的 github pages 的格式规范
+
+    （其实最重要的一点就是每个 .md 文件中都要有头部，参考第一天我们的文档中的介绍）。
 
     第二步：创建 github.com 上的同名仓库
 
@@ -71,7 +75,9 @@ title: Blogging Like a Hacker
 
     现在需要达成开发机和 github.com 的互信。
 
-    因为开发过程中，我们需要用本地机器向 github.com 的仓库中 写东西（ git push ），同时我们又不想每次都输入密码，所以我们就用 ssh key 的形式来达成互信，过程如下：
+    因为开发过程中，我们需要用本地机器向 github.com 的仓库中 写东西（ git push ），
+
+    同时我们又不想每次都输入密码，所以我们就用 ssh key 的形式来达成互信，过程如下：
 
     在本地机器上生成一对 ssh key ，一个公钥，一个私钥
     把公钥添加到 github.com
@@ -88,7 +94,9 @@ title: Blogging Like a Hacker
 
 ###  Github Pages 显示网站
 
-    上面的步骤操作完成，就可以在 happypeter.github.io 看到网站的首页了。 当然我们这里依然是使用 Github Pages 服务，所以是可以添加 md 文件的， 具体的操作方式参考第一节。
+    上面的步骤操作完成，就可以在 happypeter.github.io 看到网站的首页了。
+
+    当然我们这里依然是使用 Github Pages 服务，所以是可以添加 md 文件的， 具体的操作方式参考第一节。
 
     下面，我们涉及到如何把网站做的好看一些的问题。这个需要了解 github Pages 底层的机制。底层 Github Pages 采用了 Jekyll 框架。
 
@@ -122,7 +130,9 @@ title: Blogging Like a Hacker
 
 ###  git clone 命令
 
-    要想把 github 上的一个项目代码下载到本地有两种方式，一种就是普通下载（ download ）。但是，开发者 基本上会选择另外一种方式，就是 clone 。
+    要想把 github 上的一个项目代码下载到本地有两种方式，一种就是普通下载（ download ）。
+
+    但是，开发者 基本上会选择另外一种方式，就是 clone 。
 
     git clone git@github.com:happypeter/digicity.git
     clone 的特点就是不仅仅可以得到最新代码，而且可以得到整个改版历史。而普通下载只能得到最新版本。
@@ -138,7 +148,8 @@ title: Blogging Like a Hacker
     每个同学要有一个 github 仓库
     已经添加 ssh key 互信，也就是可以从本地仓库推送内容（ git push ）到 github 仓库
     可以在本地仓库中任意添加，删除，修改文件，并作成版本
-    这样，github/git 的初级使用我们就有能力完成了。但是，作为成熟开发者，github 上面会发 push request ，本地 git 会开启新分支，都是必备知识。暂时我们先不涉及。
+    这样，github/git 的初级使用我们就有能力完成了。但是，作为成熟开发者，github 上面会发 push request ，
+    本地 git 会开启新分支，都是必备知识。暂时我们先不涉及。
 
     承前启后
 

@@ -6,7 +6,9 @@ title: Blogging Like a Hacker
 
 ###   6. 你好 Git
 
-    Git 和 Github 是两个东西。Git 是一个软件，作者是 Linus ，安装到我们的笔记本上。Github 是一个网站，作者是 Tom ，浏览器中访问 github.com 可以使用。
+    Git 和 Github 是两个东西。Git 是一个软件，作者是 Linus ，安装到我们的笔记本上。
+
+    Github 是一个网站，作者是 Tom ，浏览器中访问 github.com 可以使用。
 
 ###  Github 的正确使用姿势
 
@@ -26,7 +28,11 @@ title: Blogging Like a Hacker
 
     sudo apt-get update
     sudo apt-get install git
-    注：apt-get 是 ubuntu 系统（ deepin 其实就是 ubuntu 的一个变种）的安装软件的命令。装软件的过程其实非常复杂，涉及到软件包依赖关系管理，这个原来 Peter 做过专职的一年的这个工作。这个领域的深入知识，应该是系统管理员（ sys admin ）去掌握，我们开发者没必要学那么深。
+    注：apt-get 是 ubuntu 系统（ deepin 其实就是 ubuntu 的一个变种）的安装软件的命令。
+
+    装软件的过程其实非常复杂，涉及到软件包依赖关系管理，这个原来 Peter 做过专职的一年的这个工作
+
+    。这个领域的深入知识，应该是系统管理员（ sys admin ）去掌握，我们开发者没必要学那么深。
 
     验证有没有装好，就敲
 

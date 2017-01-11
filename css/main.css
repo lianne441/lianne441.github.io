@@ -4,7 +4,7 @@
 
 .clearfix:after { clear: both; }
 
-html, body { height: 100%; -webkit-font-smoothing: antialiased; background-color: gray;}
+html, body { height: 100%; -webkit-font-smoothing: antialiased; background-color: #ccc;}
 
 body { margin: 0; padding: 0; }
 
@@ -201,9 +201,7 @@ code[class*="language-"], pre { color: #000; text-shadow: 0 1px #FFF; font-size:
 	padding: 0;
 	margin: 0;
 }
-body{
-	background-color: gray;
-}
+
 .header,footer{
 	background-color: teal;
 	/*line-height: 30px;*/
