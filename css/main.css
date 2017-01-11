@@ -247,6 +247,9 @@ tr:hover td{
 	background-color: #14877e;
 	color:brown;
 }
+tr:hover a{
+		color:brown;
+}
 tr td{
 	line-height: 60px;
 	border:1px solid #ccc;
