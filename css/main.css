@@ -236,6 +236,12 @@ h3{
 	color:teal;
 	line-height: 60px;
 	text-align:center;
+	color:brown;
+}
+h4{
+	display: block;
+	margin: 0 auto;
+	color:black;
 }
 table{
 	margin: 0 auto;
