@@ -11,7 +11,9 @@ title: Blogging Like a Hacker
 
       北京的（包扩硅谷）的职业开发者一般都用苹果本（ Macbook ）做开发（写代码）。
 
-      我们是做 Web 开发的，Web 项目要运行在服务器（ server ）上，服务器的业界标准是使用 Linux 做操作系统呢。
+      我们是做 Web 开发的，Web 项目要运行在服务器（ server ）上，
+
+      服务器的业界标准是使用 Linux 做操作系统呢。
 
       幸运的是， MacOS 和 Linux 都是 Unix 的变种，使用起来大同小异。
 
@@ -29,7 +31,9 @@ title: Blogging Like a Hacker
 
       学习 linux 最重要的就是来使用它的命令行。
 
-      Ctrl-Alt-T 是深度 Linux 系统上打开命令行窗口的快捷键。这个命令行窗口程序，在 Mac 系统上叫 iTerm ，在深度系统上叫”深度终端“。
+      Ctrl-Alt-T 是深度 Linux 系统上打开命令行窗口的快捷键。
+
+      这个命令行窗口程序，在 Mac 系统上叫 iTerm ，在深度系统上叫”深度终端“。
 
       命令行窗口中可以运行的程序不唯一。默认启动的程序叫做 Bash ，这个是我们这个要学习的核心。
 
@@ -44,7 +48,9 @@ title: Blogging Like a Hacker
 
 ###  Bash 简介
 
-      Bash 是各种命令行中最流行的一种，其中后两个字符 sh 是 shell 这个单词的缩写，shell 的意思就是“命令行”，前面 Ba 是人名，我们不用管。
+      Bash 是各种命令行中最流行的一种，其中后两个字符 sh 是 shell 这个单词的缩写，
+
+      shell 的意思就是“命令行”，前面 Ba 是人名，我们不用管。
 
       Bash 的常用命令：
 
@@ -74,11 +80,15 @@ title: Blogging Like a Hacker
 
 ###  插播一个 Linux 八卦
 
-      Linux 系统运行在所有的 Andriod 手机上，全球最强的十台 super computer 其中有九台（或者十台）运行 Linux 。80% 的服务器都用 Linux 。
+      Linux 系统运行在所有的 Andriod 手机上，全球最强的十台 super computer 其中有九台（或者十台）运行 Linux 。
+
+      80% 的服务器都用 Linux 。
 
       所以说 Linux 很牛，但是它的价格是：0 元。它的价值是多少？大约200亿美元。
 
-      到底是谁做成了200亿的东西，却 give it for free 。这个人就是 Linus 。Linux 是一个 Unix 的 clone 版，名字的意思就是 Linus 的 Unix 。
+      到底是谁做成了200亿的东西，却 give it for free 。这个人就是 Linus 。
+
+      Linux 是一个 Unix 的 clone 版，名字的意思就是 Linus 的 Unix 。
 
       Linus 是芬兰人，他父亲是政治家（共产主义者）。Linus 在大二的时候创作 Linux 操作系统。
 

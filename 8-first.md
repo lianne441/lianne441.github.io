@@ -98,7 +98,9 @@ title: Blogging Like a Hacker
 
     当然我们这里依然是使用 Github Pages 服务，所以是可以添加 md 文件的， 具体的操作方式参考第一节。
 
-    下面，我们涉及到如何把网站做的好看一些的问题。这个需要了解 github Pages 底层的机制。底层 Github Pages 采用了 Jekyll 框架。
+    下面，我们涉及到如何把网站做的好看一些的问题。这个需要了解 github Pages 底层的机制。
+
+    底层 Github Pages 采用了 Jekyll 框架。
 
 ###  Jekyll 框架
 

@@ -59,7 +59,9 @@ title: Blogging Like a Hacker
     要想把添加的内容制作成版本，还需要执行
 
     git commit -m"I add a file"
-    注： commit 的意思是”做一件很重要的事”，但是在 git 这里，它的意思就是版本 。-m 就是 message 的简写，后面的内容是再版留言 。
+    注： commit 的意思是”做一件很重要的事”，但是在 git 这里，它的意思就是版本 。
+
+    -m 就是 message 的简写，后面的内容是再版留言 。
 
     问题来了，新用户首次执行上面的命令，会看到下面的报错信息
 
@@ -87,7 +89,9 @@ title: Blogging Like a Hacker
 
 ###  查看改版历史
 
-    改版历史（所有我们做过的版本组成的一条线，就叫历史）中，会包含多个版本。每个版本中起码要包含4个 W （ Who When What Why ）。
+    改版历史（所有我们做过的版本组成的一条线，就叫历史）中，会包含多个版本。
+
+    每个版本中起码要包含4个 W （ Who When What Why ）。
 
     那么如何来查看改版历史呢？
 
@@ -96,11 +100,15 @@ title: Blogging Like a Hacker
 
     小技巧：q 可以退出 git log -p 的界面，敲 j 可以往下翻，敲 k 可以往上翻。
 
-    注意，实际中 Peter 查看版本历史从来不用 git log 命令，而是使用一个前端工具叫做 tig 。安装和使用方式可以参考：http://www.haoduoshipin.com/v/49.html
+    注意，实际中 Peter 查看版本历史从来不用 git log 命令，而是使用一个前端工具叫做 tig 。
+
+    安装和使用方式可以参考：http://www.haoduoshipin.com/v/49.html
 
     总结
 
-    这样，我们就学会了如何在本地创建 git 版本，查看各个版本 ，下面一节我们来研究如何把本地的这些版本上传到 github.com 。
+    这样，我们就学会了如何在本地创建 git 版本，查看各个版本 ，
+
+    下面一节我们来研究如何把本地的这些版本上传到 github.com 。
 
     有任何问题请联系 happypeter ： happypeter1983@gmail.com
     所有内容基于 允许商用保留署名的 CC 协议 发布
