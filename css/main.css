@@ -285,8 +285,10 @@ table tr .change{
 	height: 60px;
 	margin-top: 50px;
 }
-.footer-inner p{
+.footer-inner a{
 	color:white;
-	line-height: 60px;
+	font-size: 20px;
+	line-height: 2rem;
 	text-align:center;
+	text-decoration: none;
 }
