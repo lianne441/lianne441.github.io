@@ -202,7 +202,7 @@ code[class*="language-"], pre { color: #000; text-shadow: 0 1px #FFF; font-size:
 	margin: 0;
 }
 body{
-	background-color: #ccc;
+	background-color: gray;
 }
 .header,footer{
 	background-color: teal;
