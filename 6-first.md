@@ -8,7 +8,7 @@ title: Blogging Like a Hacker
 
     Git 和 Github 是两个东西。Git 是一个软件，作者是 Linus ，安装到我们的笔记本上。Github 是一个网站，作者是 Tom ，浏览器中访问 github.com 可以使用。
 
-####  Github 的正确使用姿势
+###  Github 的正确使用姿势
 
     直接到 Github.com 上点 New File 按钮，不是正确的使用方法。要了解正确的 Github 使用方法，首先要知道什么是 Git 。
 
@@ -22,7 +22,7 @@ title: Blogging Like a Hacker
     第四步，通过 git push 命令来上传代码到 Github
     OK，从上面流程可见，如果想要灵活运用 Github ，第一步先要学会 Git 的基本使用技巧。下面几个部分中，我们先来介绍 Git 的使用。
 
-####  安装 Git
+###  安装 Git
 
     sudo apt-get update
     sudo apt-get install git

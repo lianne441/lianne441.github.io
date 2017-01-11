@@ -8,7 +8,7 @@ title: Blogging Like a Hacker
 
     前面学会了如何在本地用 git 创建项目版本，本节咱们看看咋把新版本上传到 github.com 之上。
 
-####  准备工作：删除第一天创建的项目
+###  准备工作：删除第一天创建的项目
 
     如何删除一个 github.com 的仓库呢？
 
@@ -46,7 +46,7 @@ title: Blogging Like a Hacker
 
     接下来就按照页面上显示的两步来走。
 
-####  尝试推送 push
+###  尝试推送 push
 
     到本地命令行，进入我们的本地项目文件夹
 
@@ -67,7 +67,7 @@ title: Blogging Like a Hacker
     Please make sure you have the correct access rights
     执行失败，解决方法就是添加 ssh 公钥到 github.com 。
 
-####  第三步：添加 ssh key
+###  第三步：添加 ssh key
 
     现在需要达成开发机和 github.com 的互信。
 
@@ -86,13 +86,13 @@ title: Blogging Like a Hacker
     ...make sure ... correct access right ...
     大功告成。
 
-####  Github Pages 显示网站
+###  Github Pages 显示网站
 
     上面的步骤操作完成，就可以在 happypeter.github.io 看到网站的首页了。 当然我们这里依然是使用 Github Pages 服务，所以是可以添加 md 文件的， 具体的操作方式参考第一节。
 
     下面，我们涉及到如何把网站做的好看一些的问题。这个需要了解 github Pages 底层的机制。底层 Github Pages 采用了 Jekyll 框架。
 
-####  Jekyll 框架
+###  Jekyll 框架
 
     要把 Github Pages 的网站做漂亮，必须了解 Jekyll 框架如何运行的。
 
@@ -120,7 +120,7 @@ title: Blogging Like a Hacker
     anything anything
     注意，上面的 content 外面要套两个大括号。
 
-####  git clone 命令
+###  git clone 命令
 
     要想把 github 上的一个项目代码下载到本地有两种方式，一种就是普通下载（ download ）。但是，开发者 基本上会选择另外一种方式，就是 clone 。
 
