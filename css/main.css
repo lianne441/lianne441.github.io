@@ -291,4 +291,6 @@ table tr .change{
 	line-height: 2rem;
 	text-align:center;
 	text-decoration: none;
+	display: block;
+	width: 100%;
 }
