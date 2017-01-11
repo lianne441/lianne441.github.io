@@ -241,10 +241,11 @@ table{
 	margin: 0 auto;
 	border-collapse: collapse;
 	margin-bottom: 10px;
+	font-size: 20px;
 }
 tr:hover{
 	background-color: #14877e;
-	color:gray;
+	color:brown;
 }
 tr td{
 	line-height: 60px;
