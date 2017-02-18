@@ -11,7 +11,7 @@ title: Blogging Like a Hacker
      let 只是在对应的作用域中起作用，往下的作用域
      例如：
     　console.log(a);
-     let a= 2;　
+     let a= 2;//undifined　
 
      let 会报错重复声明
      例：
@@ -28,7 +28,7 @@ title: Blogging Like a Hacker
     let声明多变量
      let [a,b,c]=['aaa',345,456]
      console.log(a,b,c)
-     let[a,[b,c]]=['aaa',[345,345]]
+     let [a,[b,c]]=['aaa',[345,345]]
      console.log(a,b,c)
 
      var [x,y]=fun();
@@ -39,8 +39,8 @@ title: Blogging Like a Hacker
 
      let res={
        a:5,
-       b=4,
-       c=6
+       b:4,
+       c:6
      }
      let {a,c}=res;
      console.log(a,c)
@@ -155,12 +155,12 @@ title: Blogging Like a Hacker
 
     console.log(newArr)
 
+   forEach遍例
 　　let arr=[4,5,6];
    arr.foreach(function(currentValue, index, array){
       console.log(currentValue, index, array);
    })
 
-   forEach遍例
    let arr4=[4,5,6];
     arr4.forEach(item => console.log(item+10))
     //  arr4.foreach(function(currentValue, index, array){
