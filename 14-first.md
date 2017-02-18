@@ -127,14 +127,18 @@ title: Blogging Like a Hacker
 
 
 　　拓展函数
+
     var people=['zf','John','Sherlock'];
+
     function sayHello(people1,people2,people3){
         console.log(`Hello ${people1},${people2},${people3}`);
     }
+
     //但是我们将一个数组以拓展参数的形式传递，它能很好地映射到每个单独的参数
     sayHello(...people);//输出：Hello zf,John,Sherlock
 　　或者：
     var people=['zf','John','Sherlock'];
+
     function sayHello(people1,people2,people3){
         console.log(`Hello ${people1},${people2},${people3}`);
     }
@@ -147,6 +151,7 @@ title: Blogging Like a Hacker
     console.log(arr3)
 
 　　map函数
+
     let arr=[1,2,3];
     let newArr=arr.map(function(currentValue, index, array){
       　console.log(currentValue, index, array);
@@ -155,7 +160,8 @@ title: Blogging Like a Hacker
 
     console.log(newArr)
 
-   forEach遍例
+    forEach遍例
+
 　　let arr=[4,5,6];
    arr.foreach(function(currentValue, index, array){
       console.log(currentValue, index, array);
@@ -168,9 +174,10 @@ title: Blogging Like a Hacker
     //
     //  })
 
-　　filter过滤
-　　let arr5=[4,6,8,9];
-   var results=arr5.filter(function(item, index, array){
+　　 filter过滤
+
+　　 let arr5=[4,6,8,9];
+    var results=arr5.filter(function(item, index, array){
       console.log(item, index,  array);
       return item >8;
      })
