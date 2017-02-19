@@ -43,29 +43,30 @@ title: Blogging Like a Hacker
 　　　
 
      index.js中：
-     let name="suiliyan";
-    let age=2;
-    let male=0;
-    let　obg={name:"aaa"}
-    function add(){
-      return 5+8
-    }
+       let name="suiliyan";
+      let age=2;
+      let male=0;
+      let　obg={name:"aaa"}
+      function add(){
+        return 5+8
+      }
 
-    let a=  <div>
-             <h1>fhggg</h1>
-             {/* 这是注释 */}
-             <h1>{name+"haha"}</h1>
-             <h1>年龄：{age*5}</h1>
-             <h1 className={male?"aaa":"bbb"}>性别：{male?'男':'女'}</h1>
-             {/* 三目运算，１或０　真＝男，假＝女*/}
-             <h1>{obg.name}</h1>
-             <h1>{add()}</h1>
-         </div>
+      let a=  <div>
+               <h1>fhggg</h1>
+               {/* 这是注释 */}
+               <h1>{name+"haha"}</h1>
+               <h1>年龄：{age*5}</h1>
+               <h1 className={male?"aaa":"bbb"}>性别：{male?'男':'女'}</h1>
+               {/* 三目运算，１或０　真＝男，假＝女*/}
+               <h1>{obg.name}</h1>
+               <h1>{add()}</h1>
+           </div>
 
 
 　　　　　
 
       组件component(3种方式)　首字母大写
+
       　１.var Hello=react.createclass({}) es5写法，不用
 
         (１）function Greeting(){
@@ -86,9 +87,10 @@ title: Blogging Like a Hacker
           <Greeting />,
             document.getElementById("app")
           )
+
         2.function Hello(){
-          return(<h1>aaa</h1>)
-        }使用时<hello />
+          return (<h1>aaa</h1>)
+        }使用时<hello />,首字母大写；标签小写
 
         import React from 'react';
         import ReactDOM from 'react-dom';
@@ -110,4 +112,48 @@ title: Blogging Like a Hacker
         <Hello />,
           document.getElementById("app")
         )
-        3.
+
+        import React from 'react';
+        import ReactDOM from 'react-dom';
+
+        function Hello(){
+          if(1){
+            var x=3;
+          }
+          return (
+             <div>
+             {x}
+               <h1>asdfg</h1>
+               <h1>asdfg</h1>
+               <div>
+                 <h1>asdfg</h1>
+                 <h1>asdfg</h1>
+               </div>
+             </div>
+          )
+        }
+        let a=<h1>Hello</h1>
+        ReactDOM.render(
+          <Hello />,
+            document.getElementById("app")
+        )
+
+        3.class
+
+        import React from 'react';
+        import ReactDOM from 'react-dom';
+
+
+        class Hello extends React.Component{
+          render(){
+            return (
+              <div>
+                <h1>hello</h1>
+              </div>
+            )
+          }
+        }
+        ReactDOM.render(
+          <Hello />,
+            document.getElementById("app")
+        )

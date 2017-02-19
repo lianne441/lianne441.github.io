@@ -20,7 +20,7 @@ title: Blogging Like a Hacker
     　正确：
         let a=５；
         ｛
-　　　　　　let ｂ=6;
+　　　　　　let a=6;
         ｝
 
      const a=5;a=10
@@ -58,10 +58,11 @@ title: Blogging Like a Hacker
      var b = (x,y) =>x+y;
      console.log(b(3,2))
      多条语句用大括号包裹，小括号返回对象
+     箭头函数this没有自己的指向
      var  a = (name,age)=> ({name:name,age:age});
      console.log(a("suiliyan",2))
 
-　　箭头函数this没有自己的指向
+　　
     var obj={
       say:function(){
       　　setTimeout(function(){
