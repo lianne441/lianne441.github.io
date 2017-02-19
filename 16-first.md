@@ -53,6 +53,26 @@ title: Blogging Like a Hacker
 
             export default Logo; -->
 
+            import React from 'react';
+
+            class Logo extends React.Component{
+                render(){
+                  let styles={
+                    fontSize:"20px",
+                    width:"100%",
+                    height:"100px",
+                    display:"block",
+                    backgroundColor:"black",
+                    color:"white"
+                  }
+                  return (
+                  <span style={styles} className="logo">project name</span>
+                  )
+                }
+              }
+
+            export default Logo;
+
           新建一个SignIn.js:
 
             import React from 'react';
@@ -65,20 +85,20 @@ title: Blogging Like a Hacker
               }
 
               render(){
-                let styles={
-                  leftBtn:{
-                    background:"red"
-                  },
-                  rightBtn:{
-                      background:"blue"
+                  let styles={
+                    leftBtn:{
+                      background:"red"
+                    },
+                    rightBtn:{
+                        background:"blue"
+                    }
                   }
-                }
-                return (
-                  <div style={this.getStyles()}>
-                    <button style={styles.leftBtn}>登陆</button>
-                    <button style={styles.rightBtn}>注册</button>
-                  </div>
-                )
+                  return (
+                    <div style={this.getStyles()}>
+                      <button style={styles.leftBtn} className="aaa">登陆</button>
+                      <button style={styles.rightBtn}>注册</button>
+                    </div>
+                  )
               }
             }
             export default SignIn;
