@@ -135,3 +135,35 @@ title: Blogging Like a Hacker
               }
             }
             export default App;
+
+
+        * npm i   
+          npm run build
+
+          只能从父组件传给子组件；
+          子组件通过｛this.props.[name]｝获取props值；
+          子组件设置默认属性　Btn.defaultprops={};
+          子组件设置属性格式验证　Btn.propType={};
+          数字是｛｝，字符串是“”，函数加“isRequired”
+
+          npm i -D webpack-dev-server
+          npm run Dev  
+
+          getDefaultProps()
+          getinitialProps()
+          renders()
+
+          localhost:8080
+
+          1.初始化，首次渲染
+          constructor
+          componentWillMount
+          render
+          componentDidMount
+
+          2.更新阶段（state.props发生变化时出发）
+          componentWillReceiveProps
+          shouldComponentUpdate
+          componentWillUpdate
+
+          3.销毁
