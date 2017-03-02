@@ -6,18 +6,18 @@ title: Blogging Like a Hacker
 
 ### react
 
-  <div id=name>数据还没过来呢</div>
-  <script src='http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js'></script>
-    var ajax=new XMLHttpRequest();
-    ajax.onreadystatechange=function(){
-    if(ajax.readyState==4 &&　ajax.status==200){
-      let data=JSON.parse(ajax.responseText);
-       console.log(data);
-         document.getElementById('name').innerHTML=data.name;
-      }
-    }
-    ajax.open('GET','https://api.github.com/users/newming',true)
-    ajax.send()
+      <div id=name>数据还没过来呢</div>
+      <script src='http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js'></script>
+        var ajax=new XMLHttpRequest();
+        ajax.onreadystatechange=function(){
+        if(ajax.readyState==4 &&　ajax.status==200){
+          let data=JSON.parse(ajax.responseText);
+           console.log(data);
+             document.getElementById('name').innerHTML=data.name;
+          }
+        }
+        ajax.open('GET','https://api.github.com/users/newming',true)
+        ajax.send()
 
     <div id=name>数据还没过来呢</div>
     <div id=img></div>
