@@ -5,6 +5,15 @@ title: Blogging Like a Hacker
 
 
 ### react
+       发送ajax请求的几种方式：
+       １．原生　XMLHttpRequest()
+       2.jquery
+       $.ajax({type:'POST',data:string,success:function(){}})
+       3.fetch
+       fetch('url').then(res=>res.json()).then(json=>do())
+                   .catch(err=>alert('error'))
+       4.axios
+
 
       <div id=name>数据还没过来呢</div>
       <script src='http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js'></script>
