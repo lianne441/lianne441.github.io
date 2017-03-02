@@ -8,13 +8,21 @@ title: Blogging Like a Hacker
        发送ajax请求的几种方式：
        １．原生　XMLHttpRequest()
        2.jquery
-       $.ajax({type:'POST',data:string,success:function(){}})
+          $.ajax({type:'POST',data:string,success:function(){}})
        3.fetch
-       fetch('url').then(res=>res.json()).then(json=>do())
+          fetch('url').then(res=>res.json()).then(json=>do())
                    .catch(err=>alert('error'))
        4.axios
 
+      跨域请求http协议的规定就是不同源之间不能进行资源共享
+      http://api.github.com:80这一段如果有不同的都叫跨域
+      一般后台设置的access-controlAllow-Orign:　*　即可以解决
 
+      dataType:'jsonp'
+      jsonp:'callback'
+      jsonp请求只能get
+
+      
       <div id=name>数据还没过来呢</div>
       <script src='http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js'></script>
         var ajax=new XMLHttpRequest();
