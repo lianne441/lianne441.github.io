@@ -10,23 +10,26 @@ title: Blogging Like a Hacker
 
     react搭建环境(回顾)
 
-
+```
     mkdir suiliyan441
     cd suiliyan441
     atom .
+```   
 
     生成package.json
 
+```
     npm init
-
+```
     安装四个包
 
+```
     npm i --save weebpack babel-core babel-preset-env babel-loader react react-dom
 
     npm i --save babel-preset-react
 
     npm i --save axios
-
+``` 
 
     1.index.js中：
 
