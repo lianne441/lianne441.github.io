@@ -57,16 +57,16 @@ title: Blogging Like a Hacker
 
     现在要进行 Mongodb 数据库操作，我们就开启 Mongo Shell
 
-    mongo
+    $ mongo
 
     第一步，创建一个数据库
 
-    $ use digicity
+    > use digicity
     switched to db digicity
 
     查看数据库有没有创建成功，可以用
 
-    show dbs
+    > show dbs
     暂时，没有保存数据到该数据库，所以，输出中没有 digicity 。
 
     第二步，创建集合
@@ -104,7 +104,7 @@ title: Blogging Like a Hacker
     第三步，查。
 
     > db.users.find({})
-    
+
     可以列出所有的 users 集合中的文档。
 
     第四步，删。
@@ -117,3 +117,6 @@ title: Blogging Like a Hacker
     删除集合中所有文档：   
 
     > db.users.remove({})
+
+    npm i -g mongo-express
+    npm list -g mongo-express
