@@ -29,21 +29,22 @@ title: Blogging Like a Hacker
     npm i --save babel-preset-react
 
     npm i --save axios
-``` 
+```
 
     1.index.js中：
-
+```
     import React from 'react';
-    import ReactDOM from 'react-dom';
+   import ReactDOM from 'react-dom';
 
-    import App from './App';
+   import App from './App';
 
-    ReactDOM.render(
-        <div>
-          <App />
-       </div>,
-      document.getElementById("app")
-    )
+   ReactDOM.render(
+       <div>
+         <App />
+      </div>,
+     document.getElementById("app")
+   )
+```   
 
     2.index.html中：
 
