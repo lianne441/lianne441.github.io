@@ -34,15 +34,16 @@ title: Blogging Like a Hacker
     这个是安装的深度公司服务器上的 mongodb。
 
     $ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359A14518585931BC711F9BA15703C6
-    $ echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.4.list
+    $ echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.4
+    multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.4.list
     $ sudo apt-get update
     $ sudo apt-get install -y mongodb-org
 
     安装完成后，启动 mongodb
 
-    vim .gitignore　//忽略特定文件或文件夹：项目中有些文件或文件夹不是我们写的代码，例如node_modules。
-                    那么我们就没有必要把它们进行版本控制，可以把它们放到项目内一个特殊文件，叫做.gitignore中。
-                    可以加快上传速度。
+    vim .gitignore　//忽略特定文件或文件夹：项目中有些文件或文件夹不是我们写的代码，
+                    例如node_modules。那么我们就没有必要把它们进行版本控制，
+                    可以把它们放到项目内一个特殊文件，叫做.gitignore中。可以加快上传速度。
 
     .gitignore中：
       node_modules
