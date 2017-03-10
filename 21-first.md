@@ -32,7 +32,7 @@ title: Blogging Like a Hacker
 ```
 
     1.index.js中：
-    
+
 ```js
     import React from 'react';
     import ReactDOM from 'react-dom';
@@ -72,6 +72,7 @@ title: Blogging Like a Hacker
 
     4.Ａpp.js中：
 
+```js
     import React, { Component } from 'react';
     import ReactDOM from 'react-dom';
 
@@ -94,6 +95,7 @@ title: Blogging Like a Hacker
       }
     }
     export default App;
+```
 
     5.package.json中：
 
@@ -119,6 +121,7 @@ title: Blogging Like a Hacker
 
     ６.webpack.config.js
 
+```js
     var path = require('path');
 
     module.exports = {
@@ -136,3 +139,4 @@ title: Blogging Like a Hacker
         ]
       }
     };
+```
