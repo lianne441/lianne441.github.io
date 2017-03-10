@@ -32,6 +32,7 @@ title: Blogging Like a Hacker
 ```
 
     1.index.js中：
+    
 ```js
     import React from 'react';
     import ReactDOM from 'react-dom';
