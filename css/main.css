@@ -225,8 +225,8 @@ code[class*="language-"], pre { color: #000; text-shadow: 0 1px #FFF; font-size:
 	padding-top: 20px;
 	padding-bottom:80px;
 }
-ul{
-	margin-left: 10px;
+ul li{
+	margin-left: 20px;
 }
 h3{
 	font-family: times,"宋体";
