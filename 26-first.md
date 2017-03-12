@@ -15,77 +15,77 @@ title: Blogging Like a Hacker
     后台代码：
 
 ```js
-    const express =  require('express');
-    const app = express();
-    const cors = require('cors');
-    app.use(cors());
+const express =  require('express');
+const app = express();
+const cors = require('cors');
+app.use(cors());
 
 
-    app.get('/users/:id', function(req, res){
-      console.log(req.params.id)
-    })
+app.get('/users/:id', function(req, res){
+  console.log(req.params.id)
+})
 
-    app.listen(3000, function(){
-      console.log('running on port 3000...');
-    });
+app.listen(3000, function(){
+  console.log('running on port 3000...');
+});
 ```
 
     前台代码：
 
 ```js
-    import React from 'react';
-    import ReactDOM from 'react-dom';
-    import axios from 'axios';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import axios from 'axios';
 
-    class App extends React.Component{
-    constructor(){
-    super();
-    this.state={
-      user:{},
-      users:[]
-    }
-    }
-    handleClick(e){
-      e.preventDefault();
-      axios.get('http://localhost:3000/users/58c24c1858d83402647e3887').then((response) => {
-        console.log(response);
-        this.setState({
-          user: response.data
-        });
-      })
-    }
-    componentWillMount() {
-      axios.get('http://localhost:3000/users').then((response) => {
-        console.log(response.data.users);
-        this.setState({users: response.data.users});
-      })
-    }
-    render(){
-      const userList = this.state.users.map((user, i) => {
-        return (
-          <div key={i}>
-             username: <br />
-            {user.username} <br />
-            {user.email}
-          </div>
-        )
-      });
-
-      return(
-        <div>
-          { userList }
-          <div onClick={this.handleClick.bind(this)}>
-             clickme
-          </div>
-          <div>
-            username:
-            { this.state.user.username }
-          </div>
+class App extends React.Component{
+constructor(){
+super();
+this.state={
+  user:{},
+  users:[]
+}
+}
+handleClick(e){
+  e.preventDefault();
+  axios.get('http://localhost:3000/users/58c24c1858d83402647e3887').then((response) => {
+    console.log(response);
+    this.setState({
+      user: response.data
+    });
+  })
+}
+componentWillMount() {
+  axios.get('http://localhost:3000/users').then((response) => {
+    console.log(response.data.users);
+    this.setState({users: response.data.users});
+  })
+}
+render(){
+  const userList = this.state.users.map((user, i) => {
+    return (
+      <div key={i}>
+         username: <br />
+        {user.username} <br />
+        {user.email}
       </div>
-      )
-    }
-    }
-    export default App;
+    )
+  });
+
+  return(
+    <div>
+      { userList }
+      <div onClick={this.handleClick.bind(this)}>
+         clickme
+      </div>
+      <div>
+        username:
+        { this.state.user.username }
+      </div>
+  </div>
+  )
+}
+}
+export default App;
 
 ```
 

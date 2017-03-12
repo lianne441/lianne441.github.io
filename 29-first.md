@@ -22,4 +22,6 @@ title:HTTP 请求的格式
 
     请求行下面的内容就是请求的头部了。英文叫做 Headers ，注意是复数。也就是这一项下面可以有多个 header 。
 
+```
     [header 名]：[header 值]
+```
