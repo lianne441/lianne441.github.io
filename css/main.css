@@ -16,7 +16,7 @@ a { color: #14877E; text-decoration: none; }
 
 .nav ul { margin: 0; padding: 0; float: left; list-style: none; }
 
-.nav ul li { float: left; margin-right: 25px; font-size: 14px; }
+.nav ul li { float: left; margin-left: 25px; font-size: 14px; }
 
 .nav ul li a { color: #FFF; text-decoration: none; font-family: "myriad-pro", Arial, sans-serif; display: block; }
 
