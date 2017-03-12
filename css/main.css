@@ -235,6 +235,14 @@ h3{
 	background-color: white;
 }
 
+h4{
+	font-family: times,"宋体";
+	color:teal;
+	line-height: 60px;
+	text-align:center;
+	color:#14877E;
+	background-color: white;
+}
 table{
 	margin: 0 auto;
 	border-collapse: collapse;
