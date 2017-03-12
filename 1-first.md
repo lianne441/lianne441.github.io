@@ -1,15 +1,13 @@
 ---
 layout: default
-title: Blogging Like a Hacker
+title: Github Pages 创建个人网站
 ---
 
 
 
-###   1. Github Pages 创建个人网站
-
     Github.com 是程序员存放代码的一个网站。Github Pages 是 Github 提供的一项服务，可以免费的帮助我们托管网站。
 
-####  注册 Github 账号
+###  注册 Github 账号
 
     点 github.com 首页的 Sign Up （注册）按钮，进行注册。
 
@@ -33,12 +31,12 @@ title: Blogging Like a Hacker
 
 >repository = project + history
 
-####  搭建 Github 网站
+###  搭建 Github 网站
 
     创建一个仓库，仓库的名字是有严格规定的，
 
     username.github.io
-    
+
     把 username 替换成自己的自己的用户名。例如我叫 happypeter ，我要创建的仓库名就是
 
     happypeter.github.io
@@ -55,7 +53,7 @@ title: Blogging Like a Hacker
 
     注意：新添加的内容，不一定立刻能显示到 happypeter.github.io ，可能会有五六分钟的延迟。
 
-####  用 Markdown 来记笔记
+###  用 Markdown 来记笔记
 
     Markdown 跟 HTML 一样，是一种标签语言。但是 Markdown 语法特别简单，适合用来做笔记。
 
@@ -75,7 +73,7 @@ title: Blogging Like a Hacker
 
     注意，添加内容的文件名，无所谓，但是后缀一定要 .md 不然无法编译成功
 
-####  Mardown 中添加语法高亮
+###  Mardown 中添加语法高亮
 
     什么是语法高亮？ 如果一段代码没有语法高亮，那么就是所有的字符都显示成一个颜色。
 
@@ -114,7 +112,7 @@ title: Blogging Like a Hacker
     }
 ```
 
-####   如何在 happypeter.github.io 仓库中使用 markdown
+###  如何在 happypeter.github.io 仓库中使用 markdown
 
     在 github pages 项目中使用 markdown ，基本的思路就是
 
@@ -128,7 +126,7 @@ title: Blogging Like a Hacker
     title: 我的这篇文章的标题
     ---
 
-####   具体操作步骤
+###   具体操作步骤
 
     到 happypeter.github.io 的项目仓库中，首先在 index.html 中添加如下内容：
 
