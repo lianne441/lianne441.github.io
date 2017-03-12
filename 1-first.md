@@ -19,8 +19,9 @@ title: Blogging Like a Hacker
 
     Choose your personal Plan ? 选择你的付费方案
 
-    免费版：无限使用权限，只能发布开源项目
-    收费版：允许发布闭源项目
+- 免费版：无限使用权限，只能发布开源项目
+- 收费版：允许发布闭源项目
+
     邮箱中点链接之后，就可以自动跳转回 github.com 的页面上，同时显示
 
     Your email was verified.
@@ -124,6 +125,7 @@ title: Blogging Like a Hacker
     ---
     title: 我的这篇文章的标题
     ---
+
 ####   具体操作步骤
 
     到 happypeter.github.io 的项目仓库中，首先在 index.html 中添加如下内容：
