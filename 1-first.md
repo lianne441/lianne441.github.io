@@ -38,6 +38,7 @@ title: Blogging Like a Hacker
     创建一个仓库，仓库的名字是有严格规定的，
 
     username.github.io
+    
     把 username 替换成自己的自己的用户名。例如我叫 happypeter ，我要创建的仓库名就是
 
     happypeter.github.io
