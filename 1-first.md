@@ -159,9 +159,3 @@ title: Github Pages 创建个人网站
     总结一下，虽然很多 github pages 的知识我们还没有介绍，但是有了上面的这些技巧已经完全可以胜任记笔记的工作了。
 
     当然如果想让笔记好看，就添加 CSS 进来。
-
-    更多技巧参考
-
-    digicity
-    有任何问题请联系 happypeter ： happypeter1983@gmail.com
-    所有内容基于 允许商用保留署名的 CC 协议 发布
