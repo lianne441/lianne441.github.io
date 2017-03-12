@@ -17,11 +17,13 @@ title: Blogging Like a Hacker
 
        Github 就提供了markdown编译环境
 
-       > Github 上我们的项目中，有一个文件叫 README.md,在这个文件中写markdown就可以编译成html，注意，添加内容的文件名，无所谓，但是后缀一定要 .md 不然无法编译成功
+       > Github 上我们的项目中，有一个文件叫 README.md,在这个文件中写markdown就可以编译成html，
+       注意，添加内容的文件名，无所谓，但是后缀一定要 .md 不然无法编译成功
 
        编辑器中有语法高亮，在页面中字体颜色不受影响，一个颜色显示
 
-    　 lianne441.github.io 仓库中使用 markdown,如果想要新增一个html文件，就新增一个md文件，但是这个md文件必须有头部，格式为
+    　 lianne441.github.io 仓库中使用 markdown,如果想要新增一个html文件，就新增一个md文件，
+        但是这个md文件必须有头部，格式为
     　 ---
       title: 我的这篇文章的标题
       ---
@@ -59,7 +61,8 @@ title: Blogging Like a Hacker
 
         mkdir 是创建名为FolderName一个文件夹的命令
 
-        Linus 是芬兰人，他父亲是政治家（共产主义者）。Linus 在大二的时候创作 Linux 操作系统。69年出生，今天依然在写代码。Linus 的另外一个作品，就是 Git 。
+        Linus 是芬兰人，他父亲是政治家（共产主义者）。Linus 在大二的时候创作 Linux 操作系统。
+        69年出生，今天依然在写代码。Linus 的另外一个作品，就是 Git 。
 
       ３. Linux 这里其实更简单。所有的文件夹都会存在一个顶级老祖宗文件夹之内。这个老祖宗的名字叫做 / 。
 
@@ -258,7 +261,8 @@ title: Blogging Like a Hacker
 
       git commit -m"I add a file"
 
-      注： commit 的意思是”做一件很重要的事”，但是在 git 这里，它的意思就是版本 。-m 就是 message 的简写，后面的内容是再版留言 。
+      注： commit 的意思是”做一件很重要的事”，但是在 git 这里，它的意思就是版本 。
+      -m 就是 message 的简写，后面的内容是再版留言 。
 
       问题来了，新用户首次执行上面的命令，会看到下面的报错信息
 
@@ -297,7 +301,8 @@ title: Blogging Like a Hacker
 
       小技巧：q 可以退出 git log -p 的界面，敲 j 可以往下翻，敲 k 可以往上翻。
 
-      ８. 点 Settings（设置）这一个标签。打开的页面底部有一个 “Delete this repository” 按钮，意思是”删除这个仓库“，点击按钮。打开的界面中，输入一下这个仓
+      ８. 点 Settings（设置）这一个标签。打开的页面底部有一个 “Delete this repository” 按钮，
+      意思是”删除这个仓库“，点击按钮。打开的界面中，输入一下这个仓
 
       库的名字 happypeter.github.io 就可以把这个仓库删除了。
 

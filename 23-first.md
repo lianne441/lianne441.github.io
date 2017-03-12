@@ -28,8 +28,8 @@ title: Blogging Like a Hacker
             (是上面的子集，可以是多个)
 
     举例子来说，一个项目叫 facebook ，那么我们就建立一个c database 来存储这个项目的所有数据。
-    可以创建多个集合，比如 users 。一个 users 集合中，可以包含多个文档，每个文档中存储一个 user
-    的信息（信息可以有多项：email, name, brithday …）。
+    可以创建多个集合，比如 users 。一个 users 集合中，可以包含多个文档，每个文档中存储一个
+    user的信息（信息可以有多项：email, name, brithday …）。
 
     这个是安装的深度公司服务器上的 mongodb。
 
@@ -56,7 +56,7 @@ title: Blogging Like a Hacker
 
     这样，mongodb 就启动成功了，启动端口是 27017 。
 
-    现在要进行 Mongodb 数据库操作，我们就开启 Mongo Shell
+    现在要进行 Mongodb 数据库操作，我们就开启 Mongo Shell,另起一个命令行窗口：
 
     $ mongo
 
@@ -98,7 +98,8 @@ title: Blogging Like a Hacker
 
     代码中比较推荐用 save ，不推荐 update。id为需要修改的ＩＤ
 
-     > db.users.update({_id: ObjectId("58c250e4165147ec1bd2b71b")}, {username: "billie66", email:"billie@billie.com"})
+     > db.users.update({_id: ObjectId("58c250e4165147ec1bd2b71b")}, {username:
+     "billie66", email:"billie@billie.com"})
 
     update 接口中有两个参考，第一个是查询条件，用来定位要更新的是哪一个文档，后面是更新后的数据。
 
