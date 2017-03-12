@@ -30,7 +30,8 @@ title: Blogging Like a Hacker
     repository （仓库）这个词基本上等价于 project ，差别如下：
 
     repository = project + history
-### 搭建 Github 网站
+
+####  搭建 Github 网站
 
     创建一个仓库，仓库的名字是有严格规定的，
 
@@ -51,7 +52,7 @@ title: Blogging Like a Hacker
 
     注意：新添加的内容，不一定立刻能显示到 happypeter.github.io ，可能会有五六分钟的延迟。
 
-### 用 Markdown 来记笔记
+####  用 Markdown 来记笔记
 
     Markdown 跟 HTML 一样，是一种标签语言。但是 Markdown 语法特别简单，适合用来做笔记。
 
@@ -95,16 +96,22 @@ title: Blogging Like a Hacker
     ```
     上面的内容会最终显示为：
 
+```js
     console.log('hello');
     console.log('hello');
 
     console.log('hello');
 
     console.log('hello');
+```
+
+```css
     body {
       background: red;
     }
-###  如何在 happypeter.github.io 仓库中使用 markdown
+```
+
+####   如何在 happypeter.github.io 仓库中使用 markdown
 
     在 github pages 项目中使用 markdown ，基本的思路就是
 
@@ -117,7 +124,7 @@ title: Blogging Like a Hacker
     ---
     title: 我的这篇文章的标题
     ---
-###  具体操作步骤
+####   具体操作步骤
 
     到 happypeter.github.io 的项目仓库中，首先在 index.html 中添加如下内容：
 
