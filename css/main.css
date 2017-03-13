@@ -242,6 +242,10 @@ h3{
 	background-color: white;
 }
 
+#toc{
+	width: 100px;
+	height: 100px;
+}
 h4{
 	font-family: times,"宋体";
 	color:teal;
