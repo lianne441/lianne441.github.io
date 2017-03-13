@@ -96,7 +96,7 @@ p.part { font-family: "Crete Round", Georgia, Times New Roman, serif; font-size:
 .name-card img { width: 60px; display: table-cell;  border-radius: 50%; margin-right: 20px; margin-bottom: 50px; }
 .name-card .text { line-height: 1.8; display: table-cell; font-size: 14px; margin-left: 20px;}
 .name-card .text .name { font-size: 16px; font-weight: bold; margin-bottom: 10px; font-family: "Crete Round"; font-style: italic; color: #E5533C; }
-.name-card .text .job-title { margin-bottom: 15px; float: left;width: 80%;}
+.name-card .text .job-title { margin-bottom: 15px; float: left;width: 100%;}
 .name-card .text .job-title a:hover { text-decoration: underline; }
 
 .name-card { background: transparent; position: relative; margin-bottom: 3em; background: #FFF; padding: 2em; border-right: 30px solid #FFF; min-height: 147px; width: 40%; float:left;margin: 50px auto; }
