@@ -57,13 +57,14 @@ happypeter 。
 
 这个请求，在 chrome 开发者工具的右下角，可以看到：
 
+```
 Query String Parameters
 name: happypeter
+```
 意思就是：
 
-####  查询字符串参数
-
 ```
+查询字符串参数
 name: happypeter
 ```
 这些数据会作为请求的一部分，发送给服务器的。服务器端的框架，例如 express 有自己的办法去得到这些参
@@ -73,7 +74,10 @@ name: happypeter
 
 也可以传递多组参数的，每组之间以 & 隔开
 
+```
 http://haoqicat.com/?name=happypeter&email=peter@peter.com
+```
+
 Chrome 开发者工具右下角，此时就会看到两个参数了。
 
 甚至可以写成这样
@@ -91,7 +95,7 @@ Chrome 开发者工具右下角，此时就会看到两个参数了。
 
 注意现在 Chrome 右下角的参数，email 这一项就是两个值了。
 
-一个实例
+####   一个实例
 
 ```
 http://stackoverflow.com/search?q=http
