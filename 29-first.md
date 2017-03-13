@@ -1,6 +1,6 @@
 ---
 layout: default
-title:HTTP 请求的格式
+title:  HTTP 请求的格式
 ---
 
 ###  HTTP 请求的格式

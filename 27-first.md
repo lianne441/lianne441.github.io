@@ -1,6 +1,6 @@
 ---
 layout: default
-title:HTTP 简介
+title:  HTTP 简介
 ---
 
 

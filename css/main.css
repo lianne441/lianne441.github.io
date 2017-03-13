@@ -245,6 +245,8 @@ h3{
 #toc{
 	width: 100px;
 	height: 100px;
+	float:right;
+	margin-right: 20px;
 }
 h4{
 	font-family: times,"宋体";
