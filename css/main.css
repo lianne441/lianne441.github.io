@@ -92,14 +92,14 @@ p.part { font-family: "Crete Round", Georgia, Times New Roman, serif; font-size:
 
 .index-table .chapter-index { text-align: center; width: 100px; }
 
-.name-card{width: 60%;}
-.name-card img { width: 60px; display: block; float: left; border-radius: 50%; margin-right: 20px; margin-bottom: 50px; }
-.name-card .text { line-height: 1.8; display: block; font-size: 14px;float: left; margin-left: 20px;}
-.name-card .text .name { font-size: 16px; font-weight: bold; margin-bottom: 10px; float: left;font-family: "Crete Round"; font-style: italic; color: #E5533C; }
+.reviewers{overflow: hidden;}
+.name-card img { width: 60px; display: table-cell;  border-radius: 50%; margin-right: 20px; margin-bottom: 50px; }
+.name-card .text { line-height: 1.8; display: table-cell; font-size: 14px; margin-left: 20px;}
+.name-card .text .name { font-size: 16px; font-weight: bold; margin-bottom: 10px; font-family: "Crete Round"; font-style: italic; color: #E5533C; }
 .name-card .text .job-title { margin-bottom: 15px; float: left;}
 .name-card .text .job-title a:hover { text-decoration: underline; }
 
-.name-card { background: transparent; position: relative; margin-bottom: 3em; background: #FFF; padding: 2em; border-right: 30px solid #FFF; min-height: 147px; width: 800px; margin: 50px auto; }
+.name-card { background: transparent; position: relative; margin-bottom: 3em; background: #FFF; padding: 2em; border-right: 30px solid #FFF; min-height: 147px; width: 60%; float:left;margin: 50px auto; }
 .name-card:before { content: ""; position: absolute; z-index: -1; -ms-transform: skew(-3deg, -2deg); -webkit-transform: skew(-3deg, -2deg); -o-transform: skew(-3deg, -2deg); -moz-transform: skew(-3deg, -2deg); bottom: 14px; box-shadow: 0 16px 5px rgba(0, 0, 0, 0.2); height: 50px; left: 1px; max-width: 50%; width: 50%; }
 
 .contributors .row { margin: 0 auto; width: 1000px; }
