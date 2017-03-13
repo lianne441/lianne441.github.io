@@ -242,12 +242,13 @@ h3{
 	color:brown;
 	background-color: white;
 }
-
+#toc{
+	margin-left: 20px;
+}
 #toc img{
 	width: 200px;
 	height: 200px;
 	float:left;
-	margin-left: -20px;
 	margin-top: 50px;
 	border-radius: 5%;
 }
