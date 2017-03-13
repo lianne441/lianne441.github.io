@@ -23,11 +23,13 @@ title: Github Pages 创建个人网站
 
     邮箱中点链接之后，就可以自动跳转回 github.com 的页面上，同时显示
 
+
 >Your email was verified.
 
     你的邮箱已经验证成功了。下一步就可以来创建项目了。
 
     repository （仓库）这个词基本上等价于 project ，差别如下：
+    
 
 >repository = project + history
 
