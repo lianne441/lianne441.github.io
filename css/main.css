@@ -92,7 +92,7 @@ p.part { font-family: "Crete Round", Georgia, Times New Roman, serif; font-size:
 
 .index-table .chapter-index { text-align: center; width: 100px; }
 
-.reviewers{overflow: hidden;}
+.reviewers{overflow: hidden;margin-left: 50px;}
 .name-card img { width: 60px; display: table-cell;  border-radius: 50%; margin-right: 20px; margin-bottom: 50px; }
 .name-card .text { line-height: 1.8; display: table-cell; font-size: 14px; margin-left: 20px;}
 .name-card .text .name { font-size: 16px; font-weight: bold; margin-bottom: 10px; font-family: "Crete Round"; font-style: italic; color: #E5533C; }
@@ -248,6 +248,7 @@ h3{
 	height: 200px;
 	float:left;
 	margin-left: 20px;
+	margin-bottom: 50px;
 	border-radius: 5%;
 }
 h4{
