@@ -246,6 +246,9 @@ h3{
 	display: block;
 	width: 100%;
 }
+#toc{
+	overflow:hidden;
+	}
 #toc img{
 	width: 200px;
 	height: 200px;
